@@ -1,0 +1,48 @@
+{
+	"currentEmployer": "Infosys Ltd.",
+	"currentLocation": "Bangalore",
+	"duration": "From Sep 2012 to present",
+	"projectsWorked":
+	[
+		{
+			"projectName": "Global Service Exchange",
+			"client": "Apple Inc.",
+			"role":"UI Developer working on JQuery, JavaScript, JSP, HTML, JSTL, JSON and CSS. Design and Implementation Of UI features while implementing the backend logic. Extensive use of CSS and JQuery. J2EE was done using Spring 3.0 and the database connectivity by Spring DAO. The Database was Oracle 11g. Security features like Cross-Site Scripting preventive code was also implemented.",
+			"projectDescription":"GSX is the backend website used by Apple's Resellers, Carriers and Depots.",
+			"period":"8 months",
+			"teamSize":"100+"
+		},
+		{
+			"projectName": "Wholesale Remarketing Tool.",
+			"client": "Cisco Inc.",
+			"role":"UI Developer working on DOJO, JavaScript, JSP, HTML, JSTL, JSON and CSS. Extensive usage of DOJO Enhanced Grids and JSON with AJAX calls. Oracle PLSQL Procedures were to be written as this was DB logic oriented System. Had to migrate from the use of cursors to Objects and Arrays for performance improvement. Had a brief exposure to SOAP based Web Services.",
+			"projectDescription":"WRT is the backend website used by Cisco for remarketing there refurbished and repaired goods.",
+			"period":"2 months",
+			"teamSize":"3"
+		},
+		{
+			"projectName": "External Board And Membership Approval.",
+			"client": "Cisco Inc.",
+			"role":"UI Developer to restructure an old application to the new Cisco UI Standards. Extensive Usage Of CSS and HTML. New Admin features were implemented using JQuery, DataTables and JQuery UI. JDBC was used for backend connectivity. PLSQL procedures using object oriented concepts were written. Security checks like XSS prevention was also implemented. API iText was used for PDF creation and editing.",
+			"projectDescription":"EBOARD is the internal website used by Cisco’s top officials to initiate meetings with other companies as well as government agencies. ",
+			"period":"6 months",
+			"teamSize":"1"
+		},
+		{
+			"projectName": "Click to Accept.",
+			"client": "Cisco Inc.",
+			"role":"J2EE Developer in maintenance and minor up gradation process and exposing some new web services.",
+			"projectDescription":"It is a business tool used by cisco providing contracts and the ability to sign them.",
+			"period":"3 months",
+			"teamSize":"1"
+		},
+		{
+			"projectName": "Emptoris Contract Management",
+			"client": "Cisco Inc",
+			"role":"Designing and developing the UI for the prototype. Researching new UI technologies to be incorporated into the system. Proof of concepts done for backbone.js and angular.js. The prototype now works on HTML5, CSS3, jQuery,bootstrap.js, angular.js angular-ui-router.js,dropzone.js  and some bootstrap plugins.",
+			"projectDescription":"It is a business tool used by cisco for managing their legal contracts with both external and internal organizations.",
+			"period":"5 months",
+			"teamSize":"2"
+		}
+		]
+ }

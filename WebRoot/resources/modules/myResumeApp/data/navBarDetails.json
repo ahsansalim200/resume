@@ -1,0 +1,20 @@
+{
+	"brand": "Resume",
+	"leftContents":
+	[],
+	"rightContents":
+	[{
+		"name": "About",
+		"content": "",
+		"trigger":"#aboutModal"
+	},
+	{
+		"name": "Themes",
+		"content": 
+		[{
+			"displayName":"default",
+			"urlValue":"resources/css/bootstrap.css"		
+		}]
+	}
+	]
+ }

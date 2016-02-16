@@ -1,0 +1,35 @@
+{
+	"id": "about",
+	"title": "About",
+	"content": "This page has been created with the following technologies",
+	"technologies":
+	[
+		[
+			{
+				"name": "HTML 5",
+				"picture": "resources/images/html5.png"
+			},
+			{
+				"name": "CSS 3",
+				"picture": "resources/images/css3.png"
+			}
+		],
+		[
+			{
+				"name": "Bootstrap",
+				"picture": "resources/images/bootstrap.png"
+			},
+			{
+				"name": "Angular",
+				"picture": "resources/images/angular.png"
+			}
+		],
+		[
+			
+			{
+				"name": "jQuery",
+				"picture": "resources/images/jQuery.png"
+			}
+		]
+	]
+ }

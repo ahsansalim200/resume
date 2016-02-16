@@ -1,0 +1,13 @@
+<article data-ng-controller="publicationsController" class="container-fluid">
+	<div class="row">
+		<figure class="col-md-3">
+	    	<a href="#" class="thumbnail">
+	     		<img data-ng-src="{{publication.photo}}.jpg" data-glisse-big="{{publication.photo}}_lg.jpg" alt="No Photo Found" class="resume-picture" rel="publications-group">
+	    	</a>
+		</figure>
+		<article class="col-md-8 col-md-offset-1">
+			<h3>"{{publication.title}} - {{publication.titleExpansion}}" {{publication.forum}} </h3>
+			<p class="lead">{{publication.description}}</p>
+		</article>
+	</div>
+</article>

@@ -1,0 +1,31 @@
+<nav class="navbar navbar-inverse" role="navigation">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed"
+				data-toggle="collapse" data-target="#resumeMainNavBarCollapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span> <span class="icon-bar"></span> 
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">{{navBarDetails.brand}}</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="resumeMainNavBarCollapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li data-ng-class="{dropdown:isArray(rightContent.content)}" data-ng-repeat="rightContent in navBarDetails.rightContents">
+					<a href="#" data-ng-class="{'dropdown-toggle':isArray(rightContent.content)}" data-toggle="{{isArray(rightContent.content) ? 'dropdown':'modal'}}" data-target="{{isArray(rightContent.content) ? '':rightContent.trigger}}">
+						{{rightContent.name}}
+						<span data-ng-class="{caret:isArray(rightContent.content)}"></span>
+					</a>
+					<ul data-ng-class="{'dropdown-menu':isArray(rightContent.content)}" role="{{isArray(rightContent.content) ? 'menu':''}}">
+						<li data-ng-repeat="content in rightContent.content"><a href="#{{content.urlValue}}">{{content.displayName}}</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>

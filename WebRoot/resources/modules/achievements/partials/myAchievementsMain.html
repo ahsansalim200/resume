@@ -1,0 +1,27 @@
+<article data-ng-controller="achievementsController" class="container-fluid">
+	<div id="achievementsCarousel" class="carousel slide" data-ride="carousel">
+  		<!-- Indicators -->
+  		<ol class="carousel-indicators">
+		    <li data-ng-repeat="achievement in achievements" data-target="#achievementsCarousel" data-slide-to="{{$index}}" class="active"></li>
+	  	</ol>
+
+	  	<!-- Wrapper for slides -->
+	  	<div class="carousel-inner">
+		    <div class="item" data-ng-class="{active:$first}" data-ng-repeat="achievement in achievements">
+		    	<img data-ng-src="{{achievement.photo}}" alt="..." class="resume-achievement-img resume-picture" data-glisse-big="{{achievement.photo}}" rel="achievement-group">
+		      	<!-- <div class="carousel-caption">
+	    			<h3>{{achievement.name}}</h3>
+	    			<p>{{achievement.description}}</p>
+	  			</div> -->
+		    </div>
+	  	</div>
+
+	  	<!-- Controls -->
+		<a class="left carousel-control" href="#achievementsCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+	  	</a>
+	  	<a class="right carousel-control" href="#achievementsCarousel" role="button" data-slide="next">
+	    	<span class="glyphicon glyphicon-chevron-right"></span>
+	  	</a>
+	</div>
+</article>

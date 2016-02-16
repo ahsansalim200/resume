@@ -1,0 +1,18 @@
+<!-- <script src="resources/modules/academicQualifications/js/academicQualificationsController.js"></script> -->
+<article id="academicQualificationsModule"  data-ng-controller="academicQualificationsController" class="container-fluid" >
+	<!-- <post-link></post-link> -->
+	<div data-ng-repeat="academicQualification in academicQualifications">
+		<div class="row">
+			<figure class="col-md-3">
+		    	<a href="#" class="thumbnail">
+		     		<img data-ng-src="{{academicQualification.photo}}.jpg" data-glisse-big="{{academicQualification.photo}}_lg.jpg" alt="No Photo Found" class="resume-picture" rel="academic-qualifications-group">
+		    	</a>
+			</figure>
+			<article class="col-md-8 col-md-offset-1">
+				<h3>{{academicQualification.name}} </h3>
+				<p class="lead">{{academicQualification.value}}</p>
+			</article>
+		</div>
+		<hr class="resume-half-rule">
+	</div>
+</article>

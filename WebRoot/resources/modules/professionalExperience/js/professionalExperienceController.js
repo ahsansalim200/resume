@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+resumeControllers.controller('professionalExperienceController',['$scope','$http', 
+    function($scope,$http){
+		$http.get('resources/modules/professionalExperience/data/professionalExperience.json').
+			success(function(data){
+				$scope.professionalExperienceInfo=data;
+		});
+}]);

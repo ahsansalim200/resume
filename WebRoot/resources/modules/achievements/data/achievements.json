@@ -1,0 +1,22 @@
+[
+	{
+		"name": "MFG Wow Award",
+		"description": "For oustanding performance in the maufacturing unit of Infosys Ltd.",
+		"photo": "resources/images/MFG_Wow.jpg"
+	},
+	{
+		"name": "On the Spot Award",
+		"description": "For oustanding performance in the maufacturing unit of Infosys Ltd.",
+		"photo": "resources/images/spot_award.jpg"
+	},
+	{
+		"name": "CSI:Award of Excellence",
+		"description": "For Outstanding Perfomance and Exemplary dedication towards activities of CSI",
+		"photo": "resources/images/CSI_award.jpg"
+	},
+	{
+		"name": "VYUH:Certificate of Merit",
+		"description": "Batch Winner of the Technical Symposium of CSI Student Branch",
+		"photo": "resources/images/VYUH_award.jpg"
+	}	
+]

@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+resumeControllers.controller('personalDetailsController',['$scope','$http', 
+    function($scope,$http){
+		$http.get('resources/modules/personalDetails/data/personalDetails.json').
+			success(function(data){
+				$scope.personalDetails=data;
+		});
+}]);

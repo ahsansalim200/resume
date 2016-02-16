@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+resumeControllers.controller('publicationsController',['$scope','$http', 
+    function($scope,$http){
+		$http.get('resources/modules/publications/data/publicationDetails.json').
+			success(function(data){
+				$scope.publication=data;
+		});
+}]);

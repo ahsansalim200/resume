@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Graduation",
+		"value": "Completed B.Tech in Information Technology from Government Engineering College, Trivandrum with CGPA 7.0.",
+		"photo": "resources/images/graduation"
+	},
+	{
+		"name": "ISC",
+		"value": "84% marks, from Christ Nagar EHSS, 2008",
+		"photo": "resources/images/ISC"
+	},
+	{
+		"name": "ICSE",
+		"value": "84% marks, from Christ Nagar EHSS, 2006",
+		"photo": "resources/images/ICSE"
+	},
+	{
+		"name": "B.Tech Mini Project",
+		"value": "Micro Mouse Maze Solving Line Follower Robot.",
+		"photo": "resources/images/miniProject"
+	},
+	{
+		"name": "B.Tech Major Project",
+		"value": "Automatic Guitar Tabulation.",
+		"photo": "resources/images/mainProject2"
+	}
+]

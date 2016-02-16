@@ -1,0 +1,53 @@
+<article data-ng-controller="personalDetailsController">
+	<div class="row">
+		<div class="col-md-3">
+			<h4>Full Name</h4>
+		</div>
+		<div class="col-md-8 col-md-offset-1">
+			<h4><small>{{personalDetails.name}}</small></h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<h4>Fathers's Name</h4>
+		</div>
+		<div class="col-md-8 col-md-offset-1">
+			<h4><small>{{personalDetails.fathersName}}</small></h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<h4>Email</h4>
+		</div>
+		<div class="col-md-8 col-md-offset-1">
+			<h4><small><a href="mailTo:{{personalDetails.email}}">{{personalDetails.email}}</a></small></h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<h4>Contact No.</h4>
+		</div>
+		<div class="col-md-8 col-md-offset-1">
+			<h4><small>{{personalDetails.contactNo}}</small></h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<h4>Address</h4>
+		</div>
+		<div class="col-md-8 col-md-offset-1">
+			<h4>
+				<small>
+					<address>
+						<strong>{{personalDetails.name}}</strong><br>
+					  	{{personalDetails.address.street1}}<br>
+					  	{{personalDetails.address.street2}}<br>
+					  	{{personalDetails.address.area}}<br>
+					  	{{personalDetails.address.city}}<br>
+					  	<abbr title="Zip Code">pin:</abbr> {{personalDetails.address.zipCode}}
+					</address>
+				</small>
+			</h4>
+		</div>
+	</div>
+</article>

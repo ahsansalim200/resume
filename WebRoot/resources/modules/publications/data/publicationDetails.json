@@ -1,0 +1,16 @@
+{
+	"title": "AGTAB",
+	"titleExpansion": "Automatic Guitar Tabulation",
+	"description": "Automatic Guitar Tabulation",
+	"forum": "Computer Society of India(CSI) Communications-October, 2012",
+	"description": "AGTAB was a first of its kind algorithm (and software) that could convert the input sound from a guitar (or any stringed instrument) and convert them into the corresponding musical tabbed notations. It involved the spectrum analysis methods like Auto correlation, Fourier transforms on the sound signals, hidden Markov model for more real world scenarios.",
+	"photo": "resources/images/agtab",
+	"key":
+	{
+		"key3": "value3",
+		"key4":
+		[
+			{"value": "name", "event": "function"}
+		]
+	}
+ }

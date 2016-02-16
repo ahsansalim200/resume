@@ -1,0 +1,16 @@
+{
+	"name": "Ahsan Salim",
+	"fathersName": "Abdul Salim V.M.",
+	"dateOfBirth": "06-11-1990",
+	"email": "ahsansalimofficial@gmail.com",
+	"contactNo":"+91-9916036528",
+	"address":
+	{
+	    "street1":"Flat no B304",
+	    "street2":"Concorde Manhattans",
+	    "area":"Electronic City",
+	    "city":"Bangalore",
+	    "zipCode":"560100"
+	    
+	}
+}

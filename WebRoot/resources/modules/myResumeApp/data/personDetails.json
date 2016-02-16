@@ -1,0 +1,48 @@
+{
+	"firstName": "Ahsan",
+	"lastName": "Salim",
+	"personId": "ahsansalim",
+	"jobTitle": "Senior Systems Engineer",
+	"photo": "resources/images/ahsansalim.jpg",
+	"goal": "Seeking a position to utilize my skills, abilities and die hard interest in the Software Industry that will offer me the opportunity to discover and invent.",
+	"footer": "resources/modules/footer/partials/footerMain.html",
+	"profileSections":
+	[
+	{
+		"id": "academicQualifications",
+		"name": "Academic Qualifications",
+		"bodyContent": "resources/modules/academicQualifications/partials/myAcademicQualificationsMain.html"
+	},
+	{
+		"id": "publications",
+		"name": "Publications",
+		"bodyContent": "resources/modules/publications/partials/myPublicationsMain.html"
+	},
+	{
+		"id": "technicalExposure",
+		"name": "Technical Exposure",
+		"bodyContent": "resources/modules/technicalExposure/partials/myTechnicalExposureMain.html"
+	},
+	{
+		"id": "professionalExperience",
+		"name": "Professional Experience",
+		"bodyContent": "resources/modules/professionalExperience/partials/myProfessionalExperienceMain.html"
+	},
+	{
+		"id": "personalDetails",
+		"name": "Personal Details",
+		"bodyContent": "resources/modules/personalDetails/partials/myPersonalDetailsMain.html"
+	},
+	{
+		"id": "achievements",
+		"name": "Achievements",
+		"bodyContent": "resources/modules/achievements/partials/myAchievementsMain.html"
+	}],
+	"backup":
+	[{
+		"id": "qualificationProfile",
+		"name": "Qualification Profile",
+		"bodyContent": "resources/modules/qualificationProfile/partials/myQualificationProfileMain.html"
+	}
+	]
+ }

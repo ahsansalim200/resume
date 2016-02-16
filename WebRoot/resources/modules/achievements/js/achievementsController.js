@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+resumeControllers.controller('achievementsController',['$scope','$http', 
+    function($scope,$http){
+		$http.get('resources/modules/achievements/data/achievements.json').
+			success(function(data){
+				$scope.achievements=data;
+	});
+}]);

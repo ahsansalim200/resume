@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+
+.resume-main-photo {
+	/* width:10%; */
+	position:relative;
+	left:2%;
+}
+.resume-main-photo a {
+	width:62%;
+}
+
+.resume-profile-navigation {
+	/* width:16%; */
+	left:3%;
+	float:left;
+	padding:1%;
+}
+.affix {
+	top:100px;
+}
+.resume-profile-accordion {
+	float: right;
+	left: -1.5%;
+	position: relative;
+}
+.resume-profeesional-experience-heading p{
+	font-size:17px;
+}
+.resume-half-rule {
+	width: 100px;
+	margin: 40px auto;
+}
+.resume-achievement-img {
+	width: 63%;
+	position: relative;
+	left: 19%;
+}
+#welcomeOverlay {
+	position:fixed; 
+	top:0; 
+	left:0; 
+	background:#428bca; 
+	opacity:0.97;
+	z-index:1100; 
+	width:100%; 
+	height:100%;
+}
+.resume-welcome-header {
+	top: 32%;
+	position: relative;
+	color:white;
+	font-weight:bold;
+	font-size:400%;
+}
+.resume-welcome-message {
+	top: 33%;
+	position: relative;
+}
+
+.resume-welcome-message h1 small{
+	color:whitesmoke;
+}
+.resume-welcome-message h1{
+	display:inline;
+}
+.resume-welcome-button {
+	display:inline;
+}
+.resume-welcome-message button{
+	left: 1%;
+	position: relative;
+}
+.resume-body-initialization {
+	position:relative;
+}
+.resume-footer-message {
+	text-align:center;
+}
+@media(max-width:767px){
+   .affix {
+     position: static;
+     width: auto;
+     top: 0;
+     display:none;
+    }
+}

@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+resumeControllers.controller('technicalExposureController',['$scope','$http', 
+    function($scope,$http){
+		$http.get('resources/modules/technicalExposure/data/technicalExposure.json').
+			success(function(data){
+				$scope.technicalExposure=data;
+		});
+}]);

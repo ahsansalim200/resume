@@ -1,0 +1,66 @@
+<article class="container-fluid" data-ng-controller="professionalExperienceController">
+	<article>
+		<div class="well row resume-profeesional-experience-heading">
+			<div class="col-md-4">
+				<p>Current Employer : {{professionalExperienceInfo.currentEmployer}}</p>
+			</div>
+			<div class="col-md-4">
+				<p>Current Location : {{professionalExperienceInfo.currentLocation}}</p>
+			</div>
+			<div class="col-md-4">
+				<p>Duration 		: {{professionalExperienceInfo.duration}}</p>
+			</div>
+		</div>
+	</article>
+	<article data-ng-repeat="project in professionalExperienceInfo.projectsWorked">
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Project name</h4>
+			</div>
+			<div class="col-md-8 col-md-offset-1">
+				<h4><small>{{project.projectName}}</small></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Client</h4>
+			</div>
+			<div class="col-md-8 col-md-offset-1">
+				<h4><small>{{project.client}}</small></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Role</h4>
+			</div>
+			<div class="col-md-8 col-md-offset-1">
+				<h4><small>{{project.role}}</small></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Project Description</h4>
+			</div>
+			<div class="col-md-8 col-md-offset-1">
+				<h4><small>{{project.projectDescription}}</small></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Period</h4>
+			</div>
+			<div class="col-md-8 col-md-offset-1">
+				<h4><small>{{project.period}}</small></h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Team size</h4>
+			</div>
+			<div class="col-md-8 col-md-offset-1">
+				<h4><small>{{project.teamSize}}</small></h4>
+			</div>
+		</div>
+		<hr class="resume-half-rule">
+	</article>
+</article>

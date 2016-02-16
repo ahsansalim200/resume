@@ -1,0 +1,30 @@
+<section class="modal fade" id="{{aboutDetails.id}}Modal" tabindex="-1" role="dialog" aria-labelledby="{{aboutDetails.id}}Label" aria-hidden="true">
+	<article class="modal-dialog">
+		<article class="modal-content">
+			<header class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">
+					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+				</button>
+				<h4 class="modal-title" id="{{aboutDetails.id}}Label">{{aboutDetails.title}}</h4>
+			</header>
+			<article class="modal-body">
+				<blockquote>{{aboutDetails.content}}</blockquote>
+				<article>
+					<div class="row" data-ng-repeat="technologies in aboutDetails.technologies">
+						<figure class="col-md-6" data-ng-repeat="technology in technologies" >
+							<a href="#" class="thumbnail" title="{{technology.name}}">
+					     		<img data-ng-src="{{technology.picture}}" data-glisse-big="{{technology.picture}}" alt="No Photo Found" class="resume-picture" rel="technology-group">
+					    	</a>
+						</figure>
+					</div>
+				</article>
+			</article>
+			<footer class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</footer>
+		</article>
+		<!-- /.modal-content -->
+	</article>
+	<!-- /.modal-dialog -->
+</section>
+<!-- /.modal -->
